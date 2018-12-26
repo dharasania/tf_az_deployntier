@@ -1,4 +1,4 @@
-# tf-azure-arm
+# Deploy N-Tier Application using Terraform (Sample for BSI Dev-Test) - To be finalised on Design Review. 
 Azure RM + Terraform
 
 ##Sample terraform configuration files to provision and deploy  VMs in Azure Resource Manager.
