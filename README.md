@@ -1,11 +1,9 @@
 # tf-azure-arm
 Azure RM + Terraform
 
-Sample terraform configuration files to provision and deploy  VMs in Azure Resource Manager.
+##Sample terraform configuration files to provision and deploy  VMs in Azure Resource Manager.
 
 ##Running Windows VMs for an N-tier architecture on Azure
-
-![Azure architecture](https://1.bp.blogspot.com/-vBoEHhSpjsA/WDcRKM1VylI/AAAAAAAACpE/HC9JTCvg1jIxiPLgYAgKOhjrgB-C_uWywCLcB/s640/Azure-Architecture.PNG)
 
 [More information on N-tier architecture on Azure](https://docs.microsoft.com/en-us/azure/guidance/guidance-compute-n-tier-vm)
 
@@ -25,7 +23,6 @@ Provisioning:
                 $env:ARM_CLIENT_ID = "..."  
                 $env:ARM_CLIENT_SECRET = "..."  
                 $env:ARM_TENANT_ID = "..."  
-
 
 Configuration:
  * Create Azure Automation account in Azure Resource Manager Portal.
